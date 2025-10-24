@@ -1,0 +1,5 @@
+{
+  "name": "WFM Schedule Manager (Sling Style)",
+  "description": "A Workforce Management (WFM) application inspired by Sling for managing complex, rotating, and multi-location shifts for optical store employees, using Supabase as the backend. Features a visual scheduler, shift swapping, and real-time notifications.",
+  "requestFramePermissions": []
+}
