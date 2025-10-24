@@ -9,8 +9,8 @@ const supabaseUrl = process.env.VITE_SUPABASE_URL;
 const supabaseKey = process.env.VITE_SUPABASE_ANON_KEY;
 
 export const isSupabaseConfigured = 
-    supabaseUrl && supabaseUrl !== 'YOUR_SUPABASE_URL' &&
-    supabaseKey && supabaseKey !== 'YOUR_SUPABASE_ANON_KEY';
+    supabaseUrl && supabaseUrl !== 'https://kqjgkmeebskbkfxratbg.supabase.co' &&
+    supabaseKey && supabaseKey !== 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtxamdrbWVlYnNrYmtmeHJhdGJnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjEzMjM2MzgsImV4cCI6MjA3Njg5OTYzOH0.xeyFvmqiR3yXX6HUX4socPw_6BSDFAUOh3ufPh9BmAY';
 
 let supabase: SupabaseClient;
 
